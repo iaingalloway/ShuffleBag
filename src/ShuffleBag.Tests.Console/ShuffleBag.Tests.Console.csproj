@@ -7,8 +7,8 @@
     <ProjectGuid>{3B76D152-858A-4CB2-A14C-8B073C71CDF4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShuffleBag.Console</RootNamespace>
-    <AssemblyName>ShuffleBag.Console</AssemblyName>
+    <RootNamespace>ShuffleBag.Tests.Console</RootNamespace>
+    <AssemblyName>ShuffleBag.Tests.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>da4e2525</NuGetPackageImportStamp>

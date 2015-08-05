@@ -1,4 +1,4 @@
-﻿namespace ShuffleBag.Console
+﻿namespace ShuffleBag.Tests.Console
 {
     public enum Suit
     {

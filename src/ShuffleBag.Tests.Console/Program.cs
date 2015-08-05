@@ -1,4 +1,4 @@
-﻿namespace ShuffleBag.Console
+﻿namespace ShuffleBag.Tests.Console
 {
     using System;
     using System.Linq;

@@ -42,6 +42,9 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
     <None Include="packages.config" />
     <None Include="Settings.StyleCop" />
+    <None Include="ShuffleBag.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\SolutionInfo.cs">

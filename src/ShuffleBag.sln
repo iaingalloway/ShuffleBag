@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA9B47
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleBag.Console", "ShuffleBag.Console\ShuffleBag.Console.csproj", "{3B76D152-858A-4CB2-A14C-8B073C71CDF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleBag.Tests.Console", "ShuffleBag.Tests.Console\ShuffleBag.Tests.Console.csproj", "{3B76D152-858A-4CB2-A14C-8B073C71CDF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
