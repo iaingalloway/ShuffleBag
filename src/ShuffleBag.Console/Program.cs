@@ -10,15 +10,20 @@
             var suits = Enum.GetValues(typeof(Suit)).Cast<Suit>();
             var ranks = Enum.GetValues(typeof(Rank)).Cast<Rank>();
 
-            var cards = suits.SelectMany(suit => ranks, (suit, rank) => new Card(suit, rank));
+            var cards = suits.SelectMany(
+                suit => ranks,
+                (suit, rank) => new Card(suit, rank));
 
-            var deck = new FisherYatesShuffleBag<Card>(cards);
+            var deck = cards.Shuffle();
 
-            var hand = Enumerable.Range(0,5).Select(x => deck.Next());
+            var hand = deck.Take(5);
 
-            foreach(var card in hand)
+            foreach (var card in hand)
             {
-                Console.WriteLine("You drew the {0} of {1}!", card.Rank, card.Suit);
+                Console.WriteLine(
+                    "You drew the {0} of {1}!",
+                    card.Rank,
+                    card.Suit);
             }
 
             Console.ReadKey();

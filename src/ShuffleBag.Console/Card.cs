@@ -2,9 +2,9 @@
 {
     public struct Card
     {
-        private readonly Suit suit;
-
         private readonly Rank rank;
+
+        private readonly Suit suit;
 
         public Card(Suit suit, Rank rank)
         {
@@ -14,12 +14,18 @@
 
         public Rank Rank
         {
-            get { return this.rank; }
+            get
+            {
+                return this.rank;
+            }
         }
 
         public Suit Suit
         {
-            get { return this.suit; }
+            get
+            {
+                return this.suit;
+            }
         }
     }
 }

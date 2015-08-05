@@ -53,12 +53,23 @@
             }
 
             this.source = source.ToArray();
-            if (this.source.Length == 0)
+            if (this.Count == 0)
             {
                 throw new EmptyShuffleBagException();
             }
 
             this.random = random;
+        }
+
+        /// <summary>
+        /// Gets the number of objects in the collection.
+        /// </summary>
+        public int Count
+        {
+            get
+            {
+                return this.source.Length;
+            }
         }
 
         /// <summary>
@@ -83,11 +94,11 @@
         }
 
         /// <summary>
-        /// Shuffles the collection
+        /// Shuffles the collection.
         /// </summary>
         public void Shuffle()
         {
-            this.cursor = this.source.Length - 1;
+            this.cursor = this.Count - 1;
         }
     }
 }
