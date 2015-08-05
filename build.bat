@@ -14,9 +14,6 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-echo Restoring packages
-%nuget% restore src\ShuffleBag.sln
-
 echo Building
 %MsBuildExe% src\ShuffleBag.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
