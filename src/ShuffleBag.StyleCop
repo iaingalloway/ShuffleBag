@@ -1,14 +1,6 @@
 <StyleCopSettings Version="105">
   <GlobalSettings>
     <IntegerProperty Name="MaxViolationCount">100000</IntegerProperty>
-    <CollectionProperty Name="RecognizedWords">
-      <Value>elmah</Value>
-      <Value>Guid</Value>
-      <Value>Memoize</Value>
-      <Value>Memoizer</Value>
-      <Value>Memoizes</Value>
-      <Value>ninject</Value>
-    </CollectionProperty>
   </GlobalSettings>
   <Parsers>
     <Parser ParserId="StyleCop.CSharp.CsParser">
