@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RuleSet Name="ShuffleBag" Description="This rule set contains all relevant rules as errors." ToolsVersion="10.0">
+  <IncludeAll Action="Error" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <!--
+    <Rule Id="CA1005" Action="None" />
+    <Rule Id="CA1006" Action="None" />
+    <Rule Id="CA1017" Action="None" />
+    <Rule Id="CA1020" Action="None" />
+    <Rule Id="CA1032" Action="None" />
+    <Rule Id="CA1040" Action="None" />
+    <Rule Id="CA1405" Action="None" />
+    -->
+    <Rule Id="CA1014" Action="None" />
+    <Rule Id="CA1710" Action="None" />
+    <Rule Id="CA2210" Action="None" />
+  </Rules>
+</RuleSet>
