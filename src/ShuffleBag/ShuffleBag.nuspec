@@ -14,6 +14,6 @@
 		<tags>random collection</tags>
     </metadata>
     <files>
-        <file src="ShuffleBag\bin\$configuration$\ShuffleBag.dll" target="lib\ShuffleBag.dll" />
+        <file src="bin\$configuration$\ShuffleBag.dll" target="lib\ShuffleBag.dll" />
     </files>
 </package>
