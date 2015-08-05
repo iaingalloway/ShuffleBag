@@ -16,8 +16,8 @@ Just add `using ShuffleBag` and you can easily shuffle collections:-
         suit => ranks,
         (suit, rank) => new Card(suit, rank)); // Cards not included!
 
-    var deck = cards.Shuffle(); // Easily randomise collections
+    var deck = cards.Shuffle(); // Easily shuffle collections
     var hand = deck.Take(5);
 
-    var reshufflingDeck = cards.ShuffleIndefinitely() // "Reshuffles" when empty
+    var reshufflingDeck = cards.ShuffleIndefinitely() // "Reshuffle" when empty
     var reallyBigHand = deck.Take(104);
