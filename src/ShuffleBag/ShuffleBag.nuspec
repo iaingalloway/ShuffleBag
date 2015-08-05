@@ -17,5 +17,7 @@
   </metadata>
   <files>
     <file src="bin\$configuration$\ShuffleBag.dll" target="lib\ShuffleBag.dll" />
+    <file src="bin\$configuration$\ShuffleBag.pdb" target="lib\ShuffleBag.pdb" />
+    <file src="bin\$configuration$\ShuffleBag.xml" target="lib\ShuffleBag.xml" />
   </files>
 </package>
