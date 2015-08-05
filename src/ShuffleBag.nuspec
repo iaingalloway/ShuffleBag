@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ShuffleBag</id>
+        <version>$version$</version>
+        <title>ShuffleBag</title>
+        <authors>Iain Galloway</authors>
+		<owners>Iain Galloway</owners>
+		<licenseUrl>https://github.com/iaingalloway/ShuffleBag/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/iaingalloway/ShuffleBag</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A simple shuffled collection implementation in C# using the Fisher-Yates algorithm.</description>
+        <copyright>Licensed under CC0 1.0 Universal</copyright>
+		<tags>random collection</tags>
+    </metadata>
+    <files>
+        <file src="ShuffleBag\bin\$configuration$\ShuffleBag.dll" target="lib\ShuffleBag.dll" />
+    </files>
+</package>
